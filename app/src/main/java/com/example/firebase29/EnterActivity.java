@@ -85,7 +85,7 @@ public class EnterActivity extends AppCompatActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(EnterActivity.this, "Error al registrar", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EnterActivity.this, "Error al registrarse", Toast.LENGTH_SHORT).show();
             }
         });
     }
